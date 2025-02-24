@@ -142,3 +142,4 @@ cython_debug/
 # Project I/O, model files
 input_videos/
 yolov8n-pose.pt
+plan.txt

@@ -3,7 +3,7 @@ import cvzone
 from ultralytics import YOLO
 import numpy as np
 
-INPUT_VIDEO_PATH = "input_videos/fortnite.mp4"
+INPUT_VIDEO_PATH = ""
 
 video_capture = cv2.VideoCapture(INPUT_VIDEO_PATH)
 model = YOLO('yolov8n-pose.pt')
